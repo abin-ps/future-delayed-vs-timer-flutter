@@ -4,13 +4,14 @@ This project compares the `Future.delayed` and `Timer` functionalities in Flutte
 
 ## Objective
 
-The objective of this project is to provide a clear understanding of when to use `Future.delayed` and `Timer`. These are both important features in Flutter for dealing with time-related functionality, but they serve different purposes.
+The objective of this project is to provide a clear understanding of when to use `Future.delayed` and `Timer`.
 
-## What You Will Learn
+## Dependencies
 
-By the end of this demo, you will understand:
-- The differences between `Future.delayed` and `Timer`.
-- The appropriate scenarios for using each one.
-- How to implement `Future.delayed` and `Timer` in your Flutter code.
+This project uses the following packages:
 
-We hope this project helps you write more efficient and effective Flutter applications. Happy coding!
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
